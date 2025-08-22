@@ -1,2 +1,7 @@
-streamlit>=1.35.0
-snowflake-snowpark-python>=1.14.0
+name: app_environment
+channels:
+  - snowflake
+dependencies:
+  - python=3.11.*
+  - snowflake-snowpark-python=
+  - streamlit=
